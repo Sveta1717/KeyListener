@@ -33,7 +33,7 @@ namespace KeyListener
                         Console.WriteLine("F1");
                         PressedKey += person.F;
                         break;
-                    case ConsoleKey.Backspace:
+                    case ConsoleKey.Spacebar:
                         Console.WriteLine("Space");
                         PressedKey += person.Jump;
                         break;
